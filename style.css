@@ -340,3 +340,30 @@ body {
     justify-content: center;
   }
 }
+.contact-link-team {
+  background: lightblue;
+  color: var(--white);
+  padding: 8px 16px;
+  border-radius: 30px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: black;
+  text-decoration: none;
+}
+.contact-link-team:hover {
+  color: #1a237e;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px !important;
+  width: 100%;
+}
